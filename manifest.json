@@ -3,8 +3,9 @@
     "authors": [
         "FaysLeChat - Made with AMP Config Generator"
     ],
-    "origin": "https://github.com/FaysLeChat - Made with AMP Config Generator/AMPTemplates.git",
-    "url": "https://github.com/FaysLeChat - Made with AMP Config Generator/AMPTemplates",
+    "origin": "https://github.com/FaysLeChat/AMPTemplates.git",
+    "url": "https://github.com/FaysLeChat/AMPTemplates",
     "imagefile": "",
-    "prefix": "FaysLeChat - Made with AMP Config Generator"
+    "prefix": "FaysLeChat - Made with AMP Config Generator",
+	"repotype": "AppTemplates"
 }
