@@ -1,0 +1,9 @@
+[
+    {
+        "Protocol": "Both",
+        "Port": "10099",
+        "Name": "Bind port",
+        "Description": "Port used for main game traffic",
+        "Ref": "Bindport"
+    }
+]
