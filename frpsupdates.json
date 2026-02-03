@@ -7,8 +7,8 @@
         "UpdateSourceArgs": "fatedier/frp",
         "UnzipUpdateSource": false,
         "OverwriteExistingFiles": false,
-        "UpdateSourceConditionSetting": "GitHubDownload",
-        "UpdateSourceConditionValue": "true",
+        "UpdateSourceConditionSetting": "",
+        "UpdateSourceConditionValue": "false",
         "DeleteAfterExtract": true,
         "OneShot": false
     }
