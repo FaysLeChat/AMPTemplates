@@ -2,10 +2,11 @@
     {
         "UpdateStageName": "Source Download",
         "UpdateSourcePlatform": "Linux",
-        "UpdateSource": "GithubRelease",
+        "UpdateSource": "FetchURL",
         "UpdateSourceData": "frp_0.67.0_linux_amd64.tar.gz",
         "UpdateSourceArgs": "fatedier/frp",
-        "UnzipUpdateSource": false,
+        "UpdateSourceTarget": "serverFiles",
+        "UnzipUpdateSource": true,
         "OverwriteExistingFiles": false,
         "UpdateSourceConditionSetting": "",
         "UpdateSourceConditionValue": "false",
