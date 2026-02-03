@@ -16,8 +16,13 @@
 	{
 		"UpdateStageName": "Flatten Extracted Folder",
 		"UpdateSourcePlatform": "Linux",
-		"UpdateSource": "RunCommand",
+        "UpdateSourceArch": "x86_64",
+        "UpdateSource": "Executable",
+        "UpdateSourceData": "/bin/bash",
 		"UpdateSourceData": "cd {{$FullBaseDir}} && folder=$(ls -d frp_* 2>/dev/null | head -n 1) && mv \"$folder\"/* . && rm -rf \"$folder\"",
 		"OneShot": false
+		"UpdateSourceConditionValue": "false",
+        "ProcessToolOutput": true,
+        "SkipOnFailure": false
 	}
 ]
