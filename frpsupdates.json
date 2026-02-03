@@ -12,5 +12,12 @@
         "UpdateSourceConditionValue": "false",
         "DeleteAfterExtract": true,
         "OneShot": false
-    }
+    },
+	{
+		"UpdateStageName": "Flatten Extracted Folder",
+		"UpdateSourcePlatform": "Linux",
+		"UpdateSource": "RunCommand",
+		"UpdateSourceData": "cd {{$FullBaseDir}} && folder=$(ls -d frp_* 2>/dev/null | head -n 1) && mv \"$folder\"/* . && rm -rf \"$folder\"",
+		"OneShot": false
+	}
 ]
