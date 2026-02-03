@@ -4,7 +4,7 @@
         "UpdateSourcePlatform": "Linux",
         "UpdateSource": "FetchURL",
         "UpdateSourceData": "https://github.com/fatedier/frp/releases/download/v0.67.0/frp_0.67.0_linux_amd64.tar.gz",
-        "UpdateSourceArgs": "fatedier/frp",
+        "UpdateSourceArch": "x86_64",
         "UpdateSourceTarget": "{{$FullBaseDir}}",
         "UnzipUpdateSource": true,
         "OverwriteExistingFiles": true,
